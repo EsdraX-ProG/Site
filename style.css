@@ -8,7 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(./img/electric-shaver2.jpg);
+    background: url(./img/img.jpg);
     font-family:'segoe UI', Tahome, Verdana, sans-serif;
     padding: 30px
     background-size: center;
@@ -34,11 +34,13 @@ button {
     margin-bottom: 20px;
     margin-right: 60px;
 }
+    .botao:last-child {
+    margin-right: 0;
+}
 button:hover {
     background-color: #450592;
     transform: translateY(-2px);
     box-shadow: 0 10px 10px #23e42d
-
 }
 a{
     color: white;
@@ -58,14 +60,14 @@ nav{
     text-align: center;
 }
 h1{
-    color: #ffffff;
-     font-size: 70px;
+    color: white;
+    font-size: 70px;
     margin-top: -30%;
 }
 h2{
-    color: #ffffff;
-     font-size: 60px;
-     margin-top: -30%;
+    color: white;
+    font-size: 60px;
+    margin-top: -30%;
 }
 footer img{
     width: 40px;
@@ -87,7 +89,7 @@ footer p{
     margin-top: 2px;
 }
 .container{
-    padding: 0px 100px;
+    padding: 100px 100px;
 }
 nav a:hover{
     color: #23e42d;
