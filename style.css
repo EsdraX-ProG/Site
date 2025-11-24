@@ -10,9 +10,9 @@ body{
     min-height: 100vh;
     background: url(./img/img.jpg);
     font-family:'segoe UI', Tahome, Verdana, sans-serif;
-    padding: 30px
+    padding: center;
     background-size: center;
-    background-position: center;
+    background-position: 100%;
 }
 ul {
     display: flex;
